@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Fanwood+Text:ital@0;1&family=Martel:wght@200;300;400;600;700;800;900&display=swap');
+
+*,{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.bg-color{
+    background-color: darkseagreen;
+}
+
+.navbar-brand{
+    margin-left: 2%;
+    font-weight: 800;
+    font-size: x-large;
+}
+
+#navbarNav{
+    margin-left: 60%;
+}
+
+.section{
+    position: relative;
+}
+
+.bg-page{
+    background-color: floralwhite;
+}
+
+.about-image {
+    padding: 0;
+    margin-left: 55%;
+    width: 470px;
+}
+
+.wellcome-txt{
+    font-family: 'Martel', serif;
+    position: absolute; 
+    margin-top: 40%;
+    top: 140px;
+    left: 190px;
+    font-size: 80px;
+    font-weight: 500;
+    color: cadetblue;
+}
+
+.isi-txt{
+    font-family: 'Caveat', cursive;
+    position: absolute; 
+    margin-top: 40%;
+    top: 220px;
+    left: 190px;
+    font-size: 40px;
+    color: cadetblue;
+}
+
+.btn-outline-success{ 
+    position: absolute;
+    font-size: 17px;
+    margin-top: 43%;
+    top: 250px;
+    left: 17%;
+    width: 7%;
+}
+
+.btn-outline-primary{
+    position: absolute;
+    font-size: 17px;
+    margin-top: 43%;
+    top: 250px;
+    left: 27%;
+    width: 7%;
+}
+
+.bg-page-abt{
+    padding-top: 10px;
+    padding-bottom: 5%;
+    background-color: rgb(249, 249, 249);
+}
+
+.about-my-image{
+    margin-left: 40%;
+    width: 250px;
+    border-radius: 1em;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Martel', serif;
+    padding: 4%;
+    margin-left: center;
+}
+
+.about-text{
+    font-family: 'Fanwood Text', serif;
+    font-size: 19px;
+}
+
+.bg-page-portof{
+    background-color: rgb(222, 237, 240);
+    padding-bottom: 5%;
+}
+
+.portfolio-image {
+    padding: 10px;
+    width: 400px; 
+    margin: auto;
+}
+
+.bg-page-blog{
+    background-color: rgb(194, 222, 209);
+    padding-bottom: 5%;
+}
+
+.card {
+    margin: auto;
+}
+
+.card-img-bot{
+    background-image: none;
+}
+
+.bg-page-team{
+    background-color: white;
+    padding-bottom: 5%;
+}
+
+.img-team {
+    padding: 10px;
+    width: 260px; 
+    margin: auto;
+    background-image: none;
+}
+
+.name-team{
+    left: 3%;
+    text-align: center;
+}
+
+.desc-team{
+    left: 9%;
+    text-align: center;
+}
+
+.bg-page-kontak{
+    background-color: mintcream;
+}
+
+.form-label{
+    font-size: 20px;
+    font-family: 'Martel', serif;
+}
+
+.form-control{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #2979ff;
+    color: #fff;
+    font-size: 17px;
+}
+
+.btn-outline-secondary{
+    margin-right: 2%;
+    width: 10%;
+    height: 40px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Martel', serif;
+}
